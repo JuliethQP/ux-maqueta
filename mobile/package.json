@@ -23,7 +23,9 @@
     "react-native-modal-selector": "*",
     "@react-navigation/native-stack": "6.6.1",
     "react-native-safe-area-context": "4.5.0",
-    "react-native-dropdown-select-list": "*"
+    "react-native-dropdown-select-list": "*",
+    "react-native-web": "~0.18.11",
+    "expo-updates": "~0.16.4"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0"

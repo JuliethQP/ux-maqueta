@@ -1,0 +1,66 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\yarn\bin\yarn.js add expo
+
+PATH: 
+  c:\Oracle\product\12.2.0\client_1\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Symantec\VIP Access Client\;C:\Windows\CCM;C:\Program Files\dotnet\;C:\Program Files (x86)\Sybase\Shared\PowerBuilder\;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-11.0.18\jdk-11.0.18\bin;C:\Program Files\Gradle\gradle-7.6.1;C:\Users\juliqupi\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\Docker\Docker\resources\bin;C:\Users\crisveta_aru_soporte\AppData\Local\Microsoft\WindowsApps
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  14.18.2
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/react-native/-/react-native-0.71.8.tgz: ESOCKETTIMEDOUT
+      at ClientRequest.<anonymous> (C:\Users\juliqupi\AppData\Roaming\nvm\v14.18.2\node_modules\yarn\lib\cli.js:141517:19)
+      at Object.onceWrapper (events.js:519:28)
+      at ClientRequest.emit (events.js:400:28)
+      at TLSSocket.emitRequestTimeout (_http_client.js:790:9)
+      at Object.onceWrapper (events.js:519:28)
+      at TLSSocket.emit (events.js:412:35)
+      at TLSSocket.Socket._onTimeout (net.js:495:8)
+      at listOnTimeout (internal/timers.js:557:17)
+      at processTimers (internal/timers.js:500:7)
+
+npm manifest: 
+  {
+    "main": "node_modules/expo/AppEntry.js",
+    "scripts": {
+      "start": "expo start",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "web": "expo start --web"
+    },
+    "dependencies": {
+      "expo": "~48.0.18",
+      "expo-status-bar": "~1.4.4",
+      "react": "18.2.0",
+      "react-native": "0.71.8",
+      "react-native-svg": "13.4.0",
+      "react-navigation": "*",
+      "@expo/vector-icons": "^13.0.0",
+      "react-native-paper": "4.9.2",
+      "react-native-screens": "~3.20.0",
+      "@react-navigation/native": "6.0.10",
+      "react-native-vector-icons": "*",
+      "react-native-picker-select": "*",
+      "react-native-modal-dropdown": "*",
+      "react-native-modal-selector": "*",
+      "@react-navigation/native-stack": "6.6.1",
+      "react-native-safe-area-context": "4.5.0",
+      "react-native-dropdown-select-list": "*"
+    },
+    "devDependencies": {
+      "@babel/core": "^7.20.0"
+    },
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
