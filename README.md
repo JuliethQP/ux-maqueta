@@ -1,7 +1,8 @@
-# Para correr proyecto web localmente
+# Para correr el proyecto web localmente
 * version de node js: 14.18.2 
-* correr los siguientes comandos
-*  ```
+* Ejecutar los siguientes comandos en una consola (cmd, gitbash, etc...)
+  
+ ```
 cd  web
 ```
  ```
